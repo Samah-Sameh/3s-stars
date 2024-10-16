@@ -1,0 +1,71 @@
+
+.login {
+border: 1px solid black;
+width: 100%;
+height:100%;
+background: url( ./data/cover.jpeg ) ;
+color: white;
+border-radius: 20px;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+background-size:cover;
+background-position: center;
+overflow:hidden;
+
+}
+form {
+    display:flex;
+    box-sizing: border-box;
+    background-origin: padding-box;
+    padding: 40px;
+    width: 40%;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+    background-position:center;
+    flex-direction: column;
+    margin: 10px 33%;
+}
+h1{
+    font-weight:lighter;
+    font-size: 30px;
+    text-shadow: opx opx 2px 0.5px;
+    margin-bottom: 80px;
+}
+label {
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    
+}
+input {
+    background: rgba(255, 255, 255, 0.3);
+    height: 40px;
+    line-height: 40px;
+    border-radius:20px ;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+}
+ a {
+    background: rgb(45,126 ,231);
+    height: 40px;
+    line-height: 40px;
+    border-radius:40px ;
+    border: none;
+    margin: 30px 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0,0.3);
+    color: white;
+}
+button {
+    background: rgb(45,126 ,231);
+    height: 30px;
+    display:flex;
+    box-sizing: border-box;
+    justify-content: center;
+    border: none;
+    margin: 0px 45%;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0,0.3);
+    color: white;
+}
